@@ -1,3 +1,9 @@
+@media (max-width: 1024px) {
+  video{
+    width: 90%;
+  }
+}
+
 @media (max-width: 800px) {
   .social-media {
     display: flex;
@@ -9,20 +15,20 @@
   }
 
   .card-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .container .card-container:nth-child(1),
   .container .card-container:nth-child(3) {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .card {
     height: 250px;
-    width: 250px;
+    width: 350px;
   }
 
-  .card-text {
+  .card-text{
     width: 90%;
     margin-top: 2rem;
     text-align: center;
@@ -30,6 +36,10 @@
 
   .card:hover > .card-wrapper::before {
     height: 190px;
-    width: 190px;
+    width: 290px;
+  }
+
+  video{
+    width: 85%;
   }
 }

@@ -3,11 +3,22 @@
 	src:url(../fonts/YanoneKaffeesatz-VariableFont_wght.ttf);
 }
 
+:root {
+	--preto: #000000;
+  --branco: #ffffff;
+  --cinzaClaro: #707070;
+}
+
 body {
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: var(--branco);
     font-family: Principal;
+}
+
+video{
+  display: flex;
+  margin-left: 5px;
 }
 
 /* HEADER */
@@ -34,16 +45,23 @@ h2 {
   letter-spacing: 4px;
 }
 
+.window-frame {
+  background-image:url("../img/bgFrame.jpg");
+  color: var(--preto);
+  padding: 18px;
+  border: var(--preto) solid 4px;
+}
+
 .social-media {
   margin-top: 1rem;
 }
 
 .social-media a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--branco);
   font-size: 24px;
   padding: 1rem 4rem;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--branco);
   min-width: 4rem;
   display: flex;
   justify-content: center;
@@ -51,8 +69,8 @@ h2 {
   transition: 0.3s cubic-bezier(0.55, 0.025, 0.675, 0.97);
 }
 a:hover {
-  color: #ffffff;
-  background-color: #707070;
+  background-color: var(--branco);
+  color: var(--preto);
 }
 
 /* MENU HAMBURGUER */
@@ -77,9 +95,9 @@ a:hover {
 }
 
 .checkbox .trace {
+  background-color: var(--branco);
   width: 50px;
   height: 6px;
-  background-color: white;
   position: absolute;
   border-radius: 2px;
   transition: 0.5s ease-in-out;
@@ -208,7 +226,7 @@ a:hover {
 .card {
   height: 300px;
   width: 400px;
-  margin: 3rem 0 0 0;
+  margin: 2rem 0 0 0;
   background-image: url('../img/room.png');
   background-position: center;
   background-repeat: no-repeat;
