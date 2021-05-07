@@ -6,14 +6,17 @@
 :root {
 	--preto: #000000;
   --branco: #ffffff;
+  --brancoAcizentado: #e4e4e4;
   --cinzaClaro: #707070;
+  --cinzaEscuro: #555555;
+  --verdeClaro: #318964;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    color: var(--branco);
-    font-family: Principal;
+  margin: 0;
+  padding: 0;
+  color: var(--branco);
+  font-family: Principal;
 }
 
 img{
@@ -26,7 +29,7 @@ img{
 .header-wrapper {
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(-45deg, #040505, #1c2e23, #194a2c, #318964);
+  background: linear-gradient(-45deg, #040505, #1c2e23, #194a2c, var(--verdeClaro));
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
@@ -132,7 +135,7 @@ a:hover {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  box-shadow: 0px 0px 0px 0px white;
+  box-shadow: 0px 0px 0px 0px var(--branco);
   z-index: -1;
   transition: 400ms ease-in-out 0s;
 }
@@ -207,13 +210,14 @@ a:hover {
 /* CARDS */
 
 .container {
+  background-color: var(--preto);
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 3rem 0;
+  border: 3rem 0;
 }
 
 .card-container {
@@ -235,7 +239,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   filter: grayscale(0.5);
-  color: white;
+  color: var(--branco);
   cursor: pointer;
   transition: 0.3s;
 }
@@ -244,7 +248,7 @@ a:hover {
   width: 40%;
   font-family: sans-serif;
   letter-spacing: 1px;
-  color: rgb(109, 109, 109);
+  color: var(--brancoAcizentado);
 }
 
 .card-wrapper {
@@ -271,7 +275,7 @@ a:hover {
   height: 100px;
   width: 100px;
   display: block;
-  border: 1px solid white;
+  border: 1px solid var(--branco);
   opacity: 0;
   transition: 0.3s;
 }
@@ -311,11 +315,11 @@ a:hover {
 
 /* FOOTER */
 
-.footer {
+footer {
   width: 100%;
   height: 50px;
   background-color: #2E1C2B;
-  background: linear-gradient(-45deg, #040505, #1c2e23, #194a2c, #318964);
+  background: linear-gradient(-45deg, #040505, #1c2e23, #194a2c, var(--verdeClaro));
   background-size: 400% 400%;
   display: flex;
   justify-content: center;
@@ -333,4 +337,31 @@ a:hover {
   100% {
       background-position: 0% 95%;
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
+  -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar:hover {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--branco); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--cinzaClaro); 
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--verdeClaro);
+  height: 1px;
 }
