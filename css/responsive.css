@@ -32,4 +32,8 @@
     height: 190px;
     width: 290px;
   }
+
+  .window-frame {
+    width: 60%;
+  }
 }

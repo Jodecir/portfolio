@@ -10,6 +10,7 @@
   --cinzaClaro: #707070;
   --cinzaEscuro: #555555;
   --verdeClaro: #318964;
+  --verdeEscuro: #24612c;
 }
 
 body {
@@ -46,13 +47,6 @@ h1 {
 h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
-}
-
-.window-frame {
-  background: var(--branco);
-  color: var(--preto);
-  padding: 8px;
-  border: var(--cinzaEscuro) solid 2px;
 }
 
 .social-media {
@@ -341,6 +335,17 @@ footer {
   100% {
       background-position: 0% 95%;
   }
+}
+
+.window-frame {
+  background: var(--branco);
+  color: var(--preto);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8px;
+  width: 40%;
+  border: var(--verdeEscuro) solid 2px;
 }
 
 /* width */
