@@ -26,6 +26,15 @@ Repositório simples de Portfólio
 * [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)
 * [opacity](https://www.w3schools.com/css/css_image_transparency.asp)
 
+### BibliotecasJS:
+
+![aos]
+![Jquery]
+![Particles]
+![PopperJS]
+![OwlCarousel]
+![Bootstrap]
+
 #### Contatos:
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/jodecir/)](https://www.linkedin.com/in/jodecir/) 
