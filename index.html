@@ -7,6 +7,8 @@
   <meta name="author" content="Jodecir Neto">
   <link rel="icon" href="icon/favicon.ico">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css" />
   <!-- PreloaderJS -->
   <script type="text/javascript" src="assets/js/preloader.js"></script>
   <!-- PreloaderCSS -->
@@ -302,6 +304,15 @@
                 <p class="m-0">Aqui você encontrar todos meus projetos que estão disponivel em meu github.</p>
               </div>
             </div>
+            <section class="intro">
+              <div class="overview"></div>
+            </section>
+            <section class="repos">
+              <input type="text" class="filter-repos hide" placeholder="Digite Aqui o Projeto que deseja">
+              <ul class="repo-list"></ul>
+            </section>
+            <section class="repo-data hide"></section>
+            
           </div>
         </div>
       </div>
@@ -666,6 +677,7 @@
   <!-- <footer>
     <p class="window-frame">Criatividade é a arte de conectar ideias</p>
   </footer> -->
+  <script src="assets/js/api.js"></script>
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
