@@ -72,8 +72,8 @@ h2 {
   color: var(--preto);
 }
 
- /* Scroll Down Button */
- .scroll-down {
+/* Scroll Down Button */
+.scroll-down {
   position: absolute;
   z-index: 10;
   bottom: 40px;
@@ -138,9 +138,9 @@ h2 {
 }
 
 .checkbox {
+  position: absolute;
   height: 100px;
   width: 100px;
-  position: absolute;
   top: 0;
   right: 0;
   display: flex;
@@ -193,7 +193,7 @@ h2 {
 }
 
 .menu-items {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -249,7 +249,7 @@ h2 {
 }
 
 #toggle:checked ~ .menu{
-  box-shadow: 0px 0px 0px 101vmax #adadad;
+  box-shadow: 0px 0px 0px 100vmax #adadad;
   z-index: 1;
 }
 
