@@ -370,9 +370,9 @@ h2 {
 /* BACK TO TOP BUTTON */
 .back-to-top-btn {
   display: flex;
+  position: fixed;
   justify-content: center;
   align-items: center;
-  position: fixed;
   bottom: 10px;
   right: 10px;
   width: 45px;
