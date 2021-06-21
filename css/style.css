@@ -37,6 +37,7 @@ img{
   justify-content: center;
   align-items: center;
   position: relative;
+  text-align: center;
 }
 
 h1 {
@@ -66,9 +67,67 @@ h2 {
   transition: 0.3s cubic-bezier(0.55, 0.025, 0.675, 0.97);
 }
 
-a:hover {
+.social-media a:hover {
   background-color: var(--branco);
   color: var(--preto);
+}
+
+ /* Scroll Down Button */
+ .scroll-down {
+  position: absolute;
+  z-index: 10;
+  bottom: 40px;
+  width: 100%;
+  left: 0;
+}
+
+.scroll-down a {
+  display: block;
+}
+
+.scroll-down .scroll-mouse {
+  border: 2px solid var(--branco);
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.scroll-down .scroll-mouse .whell {
+  background-color: var(--cinzaClaro);
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 50%;
+  top: 4px;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-animation: scroll 1s linear 0.5s infinite backwards;
+          animation: scroll 1s linear 0.5s infinite backwards;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    top: 4px;
+    opacity: 1;
+  }
+  100% {
+    top: 21px;
+    opacity: 0;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    top: 4px;
+    opacity: 1;
+  }
+  100% {
+    top: 21px;
+    opacity: 0;
+  }
 }
 
 /* MENU HAMBURGUER */
