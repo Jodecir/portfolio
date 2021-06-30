@@ -114,16 +114,6 @@ nav li a:hover {
   transition: 400ms ease-in-out 0s;
 }
 
-.menu-slide-right {
-  transition: all 0.4s ease-in-out;
-  transform: translateX(0);
-}
-
-.menu-slide-left {
-  transition: all 0.8s ease-in-out;
-  transform: translateX(-100vw);
-}
-
 .menu-items {
   position: absolute;
   top: 0;
@@ -153,7 +143,7 @@ nav li a:hover {
   align-items: center;
 }
 
-.checkbox {
+.menu-bars {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -166,7 +156,7 @@ nav li a:hover {
   transition: 400ms ease-in-out 0s;
 }
 
-.checkbox .trace {
+.menu-bars .trace {
   background-color: var(--branco);
   width: 50px;
   height: 6px;
@@ -175,17 +165,17 @@ nav li a:hover {
   transition: 0.5s ease-in-out;
 }
 
-.checkbox .trace:nth-child(1) {
+.menu-bars .trace:nth-child(1) {
   top: 36px;
   transform: rotate(0);
 }
 
-.checkbox .trace:nth-child(2) {
+.menu-bars .trace:nth-child(2) {
   top: 51px;
   transform: rotate(0);
 }
 
-.checkbox .trace:nth-child(3) {
+.menu-bars .trace:nth-child(3) {
   top: 66px;
   transform: rotate(0);
 }
@@ -195,26 +185,26 @@ nav li a:hover {
 }
 
 /* ANIMAÇÃO DO MENU */
-#toggle:checked + .checkbox .trace:nth-child(1) {
+#toggle:checked + .menu-bars .trace:nth-child(1) {
   transform: rotate(45deg);
   background-color: #2E1C2B;
   top: 47px;
 }
 
-#toggle:checked + .checkbox .trace:nth-child(2) {
+#toggle:checked + .menu-bars .trace:nth-child(2) {
   transform:  translateX(-100px);
   width: 30px;
   visibility: hidden;
   opacity: 0;
 }
 
-#toggle:checked + .checkbox .trace:nth-child(3) {
+#toggle:checked + .menu-bars .trace:nth-child(3) {
   transform: rotate(-45deg);
   background-color: #2E1C2B;
   top: 48px;
 }
 
-#toggle:checked + .checkbox {
+#toggle:checked + .menu-bars {
   background-color: #adadad;
 }
 
