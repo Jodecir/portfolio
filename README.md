@@ -25,6 +25,8 @@ Repositório simples de Portfólio
 * [transition](https://www.w3schools.com/css/css3_transitions.asp)
 * [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)
 * [opacity](https://www.w3schools.com/css/css_image_transparency.asp)
+* [::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)
+* [::after](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::after)
 
 #### Contatos:
 
