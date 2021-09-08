@@ -78,6 +78,7 @@ h2 {
 
 /* Nav Menu Items */
 nav ul li {
+  display: none;
   height: 20%;
   overflow: hidden;
 }
@@ -130,7 +131,8 @@ nav li a:hover {
 }
 
 .menu-items ul {
-  display: flex;
+  /* display: flex; */
+  display: none;
   flex-direction: column;
   justify-content: stretch;
   list-style: none;
@@ -138,7 +140,8 @@ nav li a:hover {
 
 /* MENU HAMBURGUER */
 .checkbox-container {
-  display: flex;
+  /* display: flex; */
+  display: none;
   justify-content: center;
   align-items: center;
 }
