@@ -301,7 +301,6 @@ nav li a:hover {
   height: 300px;
   width: 400px;
   margin: 2rem 0 0 0;
-  background-image: url('../img/room.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,6 +311,10 @@ nav li a:hover {
   color: var(--branco);
   cursor: pointer;
   transition: 0.3s;
+}
+
+.bg {
+  background-image: url('../img/room.png');
 }
 
 .card-text {
