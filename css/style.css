@@ -327,6 +327,7 @@ nav li a:hover {
   font-family: sans-serif;
   letter-spacing: 1px;
   color: var(--brancoAcizentado);
+  margin: 0 0 3rem 0;
 }
 
 .card-wrapper {
