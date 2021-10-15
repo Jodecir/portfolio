@@ -22,12 +22,12 @@ body {
   padding: 0;
   color: var(--branco);
   font-family: Principal;
-  scroll-behavior: smooth;
 }
 
 img {
   width: 100%;
-  height: 35vh;
+  height: 40vh;
+  border-radius: 10px;
 }
 
 /* HEADER */
@@ -52,6 +52,10 @@ h1 {
 h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
+}
+
+a:hover {
+  color: var(--branco);
 }
 
 .social-media {
@@ -287,7 +291,7 @@ nav li a:hover {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 3rem 0;
+  padding: 6rem 0;
 }
 
 .card-container {
@@ -388,6 +392,49 @@ nav li a:hover {
 
 #about {
   font-size: 18px;
+}
+
+/* TABS */
+.tab {
+  position: relative;
+  margin: 15px 470px 0 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(89deg, var(--verdeClaro), var(--verdeEscuro));
+  color: var(--preto);
+}
+
+.tab h2 {
+  margin: 5px;
+}
+
+.tab ul {
+  margin: 0;
+  list-style: none;
+}
+
+.tab li {
+  width: fit-content;
+}
+
+.tab a {
+  color: var(--preto);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.tab a:hover {
+  color: var(--branco);
+}
+
+.tab a img {
+  opacity: 0;
+  position: absolute;
+  right: -400px;
+  top: -30px;
+  transition: 200ms;
 }
 
 /* BACK TO TOP BUTTON */
