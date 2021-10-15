@@ -6,7 +6,6 @@
 :root {
 	--preto: #000000;
   --branco: #ffffff;
-  --brancoAcizentado: #e4e4e4;
   --cinzaClaro: #707070;
   --cinzaEscuro: #555555;
   --verdeClaro: #318964;
@@ -46,13 +45,13 @@ img {
 }
 
 h1 {
-  color: var(--brancoAcizentado);
+  color: var(--branco);
   text-transform: uppercase;
   letter-spacing: 4px;
 }
 
 h2 {
-  color: var(--brancoAcizentado);
+  color: var(--branco);
   text-transform: uppercase;
   letter-spacing: 4px;
 }
