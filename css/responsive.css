@@ -1,6 +1,6 @@
 @media (max-width: 800px) {
   img {
-    height: 30vh;
+    height: 25vh;
   }
 
   .social-media {
@@ -13,20 +13,21 @@
   }
 
   .card-container {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
-  .container .card-container:nth-child(1),
+  .container .card-container:nth-child(2),
   .container .card-container:nth-child(3) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .card {
     height: 250px;
     width: 350px;
+    margin: 2rem 0 2rem 0;
   }
 
-  .card-text{
+  .card-text {
     width: 90%;
     margin-top: 2rem;
     text-align: center;
@@ -44,11 +45,10 @@
   }
 
   .tab a img {
-    height: 200px;
-    width: 300px;
+    width: 85%;
     right: auto;
     top: auto;
-    left: calc(50vw - 190px);
+    left: calc(51vw - 190px);
     bottom: 30px;
   }
 
