@@ -302,9 +302,9 @@ nav li a:hover {
 }
 
 .card {
-  height: 300px;
+  height: 40vh;
   width: 400px;
-  margin: 2rem 0 0 0;
+  margin: 3rem 0 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -312,6 +312,7 @@ nav li a:hover {
   color: var(--branco);
   cursor: pointer;
   transition: 0.3s;
+  border-radius: 10px;
 }
 
 .bg {
@@ -329,15 +330,6 @@ nav li a:hover {
 }
 
 .card-wrapper {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.card-extra {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -379,7 +371,7 @@ nav li a:hover {
 }
 
 .card:hover > .card-wrapper::before {
-  height: 250px;
+  height: 35vh;
   width: 350px;
   opacity: 1;
 }
@@ -396,14 +388,13 @@ nav li a:hover {
 
 /* TABS */
 .tab {
+  background: linear-gradient(89deg, var(--verdeClaro), var(--verdeEscuro));
+  color: var(--preto);
   position: relative;
-  margin: 15px 470px 0 0;
-  padding: 10px;
+  margin: 15px 460px 15px 0;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(89deg, var(--verdeClaro), var(--verdeEscuro));
-  color: var(--preto);
 }
 
 .tab h2 {
@@ -417,6 +408,7 @@ nav li a:hover {
 
 .tab li {
   width: fit-content;
+  margin: 2px 0 2px 0;
 }
 
 .tab a {
@@ -430,10 +422,11 @@ nav li a:hover {
 }
 
 .tab a img {
+  border-left: 4px solid var(--verdeClaro);
   opacity: 0;
   position: absolute;
-  right: -400px;
-  top: -30px;
+  right: -420px;
+  top: 0px;
   transition: 200ms;
 }
 
