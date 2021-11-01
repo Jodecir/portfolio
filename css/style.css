@@ -61,7 +61,8 @@ a:hover {
 }
 
 .social-media {
-  margin-top: 1rem;
+  margin: 1rem 0 1rem;
+  flex-direction: row;
 }
 
 .social-media a {
