@@ -353,10 +353,10 @@ nav li a:hover {
 }
 
 .card-text {
-  width: 40%;
+  width: 28.5%;
   font-family: sans-serif;
   letter-spacing: 1px;
-  margin: 3rem 0 3rem 0;
+  margin: 3rem 0 3rem 0px;
 }
 
 .card-wrapper {
@@ -421,7 +421,7 @@ nav li a:hover {
   background: linear-gradient(89deg, var(--verdeClaro), var(--verdeEscuro));
   color: var(--preto);
   position: relative;
-  margin: 15px 460px 15px 0;
+  margin: 3rem 610px 3rem 0rem;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -439,7 +439,7 @@ nav li a:hover {
 
 .tab li {
   width: fit-content;
-  margin: 4px 0 4px 0;
+  margin: 8px 0 8px 0;
 }
 
 .tab a {
@@ -456,7 +456,7 @@ nav li a:hover {
   border-left: 4px solid var(--verdeClaro);
   opacity: 0;
   position: absolute;
-  right: -460px;
+  right: -610px;
   top: 10px;
   transition: 200ms;
 }
