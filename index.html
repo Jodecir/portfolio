@@ -5,10 +5,13 @@
     <meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Jodecir Neto">
+
 		<link rel="icon" href="icon/favicon.ico">
+    <!-- Custom styles -->
 		<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom scripts -->
     <script src="js/hideShow.js" defer></script>
     <script src="js/backgroundChanger.js" defer></script>
     <script src="js/typewriting.js" defer></script>
@@ -76,56 +79,57 @@
         </a>
       </div>
     </header>
-    <div class="container">
-      <div class="card-container">
-        <div class="card bg">
-          <div class="card-wrapper">
-            <h2>Sobre</h2>
-            <p>MIM</p>
+    <main>
+      <div class="container d-flex py-5">
+        <div class="container fluid">
+          <section>            
+            <h1 class="mb-3">Sobre mim</h1>
+            <hr class="my-2">
+          </section>
+          <div class="card-text" id="about">Oi, Meu nome é Jodecir Neto e sou um Web-Developer, tenho uma personalidade INTP e prefiro estudar em lugares calmos, todos os dias me foco em estudar para dar uma experiência completa da linguagem que estou trabalhando, focando em funções diversas e recentes de uma forma organizada, meu objetivo é sempre aprimorar meu desenvolvimento nas aplicações que faço.
           </div>
         </div>
-        <div class="card-text" id="about">Oi, Meu nome é Jodecir Neto e sou um Web-Developer, tenho uma personalidade INTP e prefiro estudar em lugares calmos, todos os dias me foco em estudar para dar uma experiência completa da linguagem que estou trabalhando, focando em funções diversas e recentes de uma forma organizada, meu objetivo é sempre aprimorar meu desenvolvimento nas aplicações que faço.
-        </div>
-      </div>
-      <div class="card-container">
-        <div class="card tab">
-          <h2>Todos os projetos Pessoais</h2>
-          <ul>
-            <li><a href="https://jodecir.github.io/instagram-dio/" target="_blank">Instagram (Flexbox)<img src="gifs/instagram.gif" alt="Instagram Preview"></a></li>
-            <li><a href="https://jodecir.github.io/5w1h-board/" target="_blank">5W1H (localStorage)<img src="gifs/5w1h.gif" alt="5W1H Preview"></a></li>
-            <li><a href="https://covid19-dio-api.netlify.app/" target="_blank">Covid 19 API (React)<img src="img/not_found.png" alt="Instagram Preview"></a></li>
-            <li><a href="https://jodecir.github.io/astrological-sign-js/" target="_blank">Signo (Mobile First)<img src="img/not_found.png"></a></li>
-            <li><a href="https://jodecir.github.io/media-boletim/" target="_blank">Média Boletim (Dark Mode)<img src="img/not_found.png"></a></li>
-            <li><a href="https://jodecir.github.io/turismo-dio/" target="_blank">Turismo   (Flexbox)<img src="img/not_found.png"></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="card-container">
-        <div class="card">
-          <a href="https://jodecir.github.io/instagram-dio/" target="_blank">
-            <img src="gifs/instagram.gif" alt="Instagram Preview">
-          </a>
-        </div>
-        <div class="card bg">
-          <div class="card-wrapper">
-            <h2>Instagram</h2>
-            <p>Refeito em HTML , CSS e JS</p>
-            <p>Foco em Flexbox</p>
+        <div class="card-container fluid">
+          <div class="card tab">
+            <h2>Todos os projetos Pessoais</h2>
+            <ul>
+              <li><a href="https://jodecir.github.io/instagram-dio/" target="_blank">Instagram (Flexbox)<img src="gifs/instagram.gif" alt="Instagram Preview"></a></li>
+              <li><a href="https://jodecir.github.io/5w1h-board/" target="_blank">5W1H (localStorage)<img src="gifs/5w1h.gif" alt="5W1H Preview"></a></li>
+              <li><a href="https://covid19-dio-api.netlify.app/" target="_blank">Covid 19 API (React)<img src="img/not_found.png" alt="Instagram Preview"></a></li>
+              <li><a href="https://jodecir.github.io/restaurante_bootstrap/" target="_blank">Sushi-Diem (Responsividade)<img src="img/not_found.png"></a></li>
+              <li><a href="https://jodecir.github.io/astrological-sign-js/" target="_blank">Signo (Mobile First)<img src="img/not_found.png"></a></li>
+              <li><a href="https://jodecir.github.io/media-boletim/" target="_blank">Média Boletim (Dark Mode)<img src="img/not_found.png"></a></li>
+              <li><a href="https://jodecir.github.io/turismo-dio/" target="_blank">Turismo (Flexbox)<img src="img/not_found.png"></a></li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="card-container">
-        <div class="card bg">
-          <div class="card-wrapper">
-            <h2>5W1H</h2>
-            <p>feito em HTML , CSS e JS</p>
-            <p>Utilizando localStorage</p>
+        <div class="card-container">
+          <div class="card">
+            <a href="https://jodecir.github.io/instagram-dio/" target="_blank">
+              <img src="gifs/instagram.gif" alt="Instagram Preview">
+            </a>
+          </div>
+          <div class="card bg">
+            <div class="card-wrapper">
+              <h2>Instagram</h2>
+              <p>Refeito em HTML , CSS e JS</p>
+              <p>Foco em Flexbox</p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <a href="https://jodecir.github.io/5w1h-board/" target="_blank">
-            <img src="gifs/5w1h.gif" alt="5w1h Preview">
-          </a>
+        <div class="card-container">
+          <div class="card bg">
+            <div class="card-wrapper">
+              <h2>5W1H</h2>
+              <p>feito em HTML , CSS e JS</p>
+              <p>Utilizando localStorage</p>
+            </div>
+          </div>
+          <div class="card">
+            <a href="https://jodecir.github.io/5w1h-board/" target="_blank">
+              <img src="gifs/5w1h.gif" alt="5w1h Preview">
+            </a>
+          </div>
         </div>
       </div>
     </div>

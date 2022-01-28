@@ -39,7 +39,7 @@
   }
 
   .tab {
-    height: 450px;
+    height: 500px;
     margin: 14px 0 0 0;
     justify-content: initial;
   }
@@ -48,8 +48,8 @@
     width: 85%;
     right: auto;
     top: auto;
-    left: calc(51vw - 190px);
-    bottom: 30px;
+    left: calc(51vw - 170px);
+    bottom: 25px;
   }
 
   .window-frame {
