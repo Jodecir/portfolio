@@ -421,7 +421,7 @@ nav li a:hover {
   background: linear-gradient(89deg, var(--verdeClaro), var(--verdeEscuro));
   color: var(--preto);
   position: relative;
-  margin: 0rem 0rem 18rem 0rem;
+  margin: 0rem 0rem 24rem 0rem;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
