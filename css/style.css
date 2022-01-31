@@ -44,7 +44,7 @@ img {
   text-align: center;
 }
 
-h1 {
+header h1 {
   color: var(--branco);
   text-transform: uppercase;
   letter-spacing: 4px;
